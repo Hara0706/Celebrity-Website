@@ -1,0 +1,32 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url("images/background.jpg");
+    opacity: 60%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    
+}
+
+.read{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.vk_img{
+    height: 80vh;
+    width: 30vw;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid black;
+}

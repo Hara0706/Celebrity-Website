@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    
+    <title>Unsung Celebrities</title>
+</head>
+<body>
+    <script>
+        function about(){
+            window.open("about.html", "_self")
+        }
+        function inter() {
+            window.open("inter.html", "_self")
+        }
+        function ipl() {
+            window.open("ipl.html", "_self")
+        }
+        function award() {
+            window.open("award.html", "_self")
+        }
+    </script>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: white;">Unsung Celebrities</a>
+            <form class="d-flex">
+               
+               <button onclick='home()' class="btn btn-outline-success me-3 active" type="button">Home</button>
+               <button onclick='about()' class="btn btn-sm btn-outline-success me-3" type="button">About Virat</button>
+               <button onclick='inter()' class="btn btn-outline-success me-3" type="button">International</button>
+               <button onclick='ipl()' class="btn btn-sm btn-outline-success me-3" type="button">IPL Career</button>
+               <button onclick='award()' class="btn btn-outline-success me-3" type="button">Awards</button>
+               
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="column">
+          <img class='vk_img' src='images/virat.jpg'/>
+        </div>
+        <div class="column read">
+          <h1>VIRAT KOHLI</h1>
+          <p>
+            Virat Kohli born on 5 November 1988 is an Indian international cricketer and former
+            captain of the India national cricket team. He plays for Delhi in domestic cricket and Royal Challengers Bangalore in
+            the Indian Premier League as a right-handed batsman. He is often considered one of the best batsmen of his era and some
+            critics believe him to be one of the best limited-overs batsmen in history. Between 2013 and 2022, he captained the
+            India cricket team in 213 matches across all three formats. With 40 wins out of 68 matches, though mostly winning at
+            home, Kohli is one of the most successful Indian Test captains.
+          </p>
+        </div>
+    </div>
+    
+</body>
+</html>
