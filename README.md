@@ -27,7 +27,7 @@ Users can have a great experience over visiting this site.
 https://hara0706.github.io/Celebrity-Website/
 
 
-![](Images/front.png)
+![](images/front.png)
 ## Features
 
 - Gives detailed information on a celebrity 
